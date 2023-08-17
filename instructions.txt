@@ -1,0 +1,31 @@
+								INSTRUCTIONS
+								------------
+
+Object of the Game:
+-------------------
+To outsmart your opponent with a clever code or great guesswork.
+As the Codemaker: the system sets a mystery code such that it will keep the opponent guessing for as long as possible.
+As the Decoder: you must break the secret code in the fewest number of guesses.
+
+
+Rules:
+------
+1)The sequence can contain pegs of colours: red, yellow, green, blue,pink,violet,orange.
+2)A colour can be used any number of times in the sequence.
+3)All four pegs have to be given with the first letter of the colour and the required position.
+  For example, if you want to enter red colour at position 1, the input format has to be 'R1' or 'r1'.
+4)Each guess must consist of 4 peg colours and the corresponding positions with no blanks and empty spaces.
+5)After each guess,the player has an option to submit or change the sequence by entering 'S' or'C'.
+6)The player has 8 guesses to find the secret sequence.
+
+
+
+Scoring:
+--------
+For each of the pegs in your guess that is the correct color and in the correct position, the computer will generate one red peg. If you score 
+4 red pegs on a guess, you have guessed the secret sequence.
+For each of the pegs in your guess that is a correct color in an incorrect position, the computer generate a white peg. Together, there will 
+be no more than four red and white pegs for each move.
+If none of the pegs in your guess is of a correct color, you will see no pegs.
+
+								#....#
